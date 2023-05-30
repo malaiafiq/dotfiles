@@ -70,3 +70,8 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export PATH=/opt/homebrew/bin:./bin:./node_modules/.bin:/Users/Afiqhamidon/.rbenv/bin:/Users/Afiqhamidon/.pyenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/sbin
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
